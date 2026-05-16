@@ -102,7 +102,7 @@ jobs:
         run: |
           mvn verify sonar:sonar \
           -Dsonar.projectKey=TasticVal_actividad_3 \
-          -Dsonar.organization=TasticVal \
+          -Dsonar.organization=tasticval \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=$SONAR_TOKEN \
           -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
